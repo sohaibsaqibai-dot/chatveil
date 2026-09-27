@@ -1,0 +1,13 @@
+{
+  "name": "ChatVeil – Privacy Blur for WhatsApp™ Web",
+  "short_name": "ChatVeil",
+  "description": "Blur WhatsApp Web chats, messages and photos. 100% local.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#07140F",
+  "theme_color": "#07140F",
+  "icons": [
+    { "src": "assets/icon-128.png", "sizes": "128x128", "type": "image/png" },
+    { "src": "assets/logo-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

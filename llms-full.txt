@@ -1,0 +1,116 @@
+# ChatVeil – Privacy Blur for WhatsApp™ Web (full reference)
+
+Last updated: 2026-09-27 · Version 2.0.0
+Website: https://YOUR-USERNAME.github.io/
+Install (Chrome Web Store): https://chromewebstore.google.com/detail/eonoagiopcgfgbhfijjfhnohkobojclb
+Contact: sohaibsaqibai@gmail.com
+
+## Summary
+
+ChatVeil is a free browser extension for Google Chrome (and Chromium browsers such as Microsoft Edge and Brave) that visually blurs WhatsApp Web content so people near your screen, or viewers of a shared screen, can't read your chats. You reveal content by hovering, clicking or holding a key. It works entirely inside your browser: no account, no analytics, no ads, no network requests, and only one permission (storage). ChatVeil is an independent tool. It is not affiliated with, endorsed by or sponsored by WhatsApp LLC or Meta Platforms, Inc.
+
+## Who it's for
+
+- People using WhatsApp Web in cafés, co-working spaces, trains, airports and libraries
+- Office workers in open-plan offices
+- Anyone who shares their screen on Zoom, Microsoft Teams, Google Meet or Webex
+- Teachers and presenters who project their screen
+- People who share a computer with family or colleagues
+
+## What ChatVeil can hide (11 content types)
+
+1. Messages (text, captions, quoted replies)
+2. Chat list previews (last message)
+3. Photos, videos, GIFs and stickers
+4. Media gallery / shared media drawer
+5. Profile pictures
+6. Contact names
+7. Group name, description and participant info
+8. Online / last seen / typing status
+9. The message typing box (composer)
+10. Search box and search results
+11. In-page pop-ups and notices
+
+## Privacy modes
+
+- Quick: messages, chat previews and media
+- Public: everything (for cafés and offices)
+- Screen share: everything with a solid cover, hover-reveal turned off, and an on-screen banner
+- Private: messages only (for home)
+- Custom: any mix of the 11 content types
+
+Blur styles: Blur, Pixelate, Solid. Strength 4–20px. A live preview is shown in the popup.
+
+## Reveal options
+
+- Hover to reveal (default), with optional delay: instant, 0.2s, 0.5s or 1s
+- Click to reveal: first click reveals, second click acts normally (good for touchscreens)
+- Hold-to-peek key: F2, F3 or F4 reveals everything while held
+- Screen-share lock: ignores hover, so only the peek key reveals
+
+## Protection features
+
+- Emergency Hide (Alt+Shift+X): instantly hides everything; press again to restore previous settings
+- Auto privacy: hides everything when the window loses focus, the tab is hidden, or after 10s–5min of inactivity; restores when you return
+- PIN lock (new in 2.0): lock screen over WhatsApp Web; lock on open, after idle (1–30 min) or instantly (Alt+Shift+L). 4–8 digit PIN stored only as a salted SHA-256 hash. After 5 wrong attempts there is a 30-second cooldown. It is a privacy screen for people nearby, not a security boundary.
+- Smart schedule (new in 2.0): apply a mode automatically on chosen days and times (for example weekdays 09:00–18:00); overnight windows are supported
+- Tab disguise (new in 2.0): replaces the "(3) WhatsApp" tab title and icon with a neutral one ("Inbox", "Notes", "Dashboard", "Documents" or "New Tab")
+- Quick button (new in 2.0): small on-page menu for on/off, Emergency Hide, lock and disguise
+- Master switch (Alt+X) and a toolbar badge showing OFF or HIDE
+
+## Keyboard shortcuts
+
+- Alt+X: turn protection on or off
+- Alt+Shift+X: Emergency Hide / restore
+- Alt+Shift+L: lock now (requires a PIN)
+- Hold F2: peek at everything
+You can change these at chrome://extensions/shortcuts
+
+## Privacy and permissions
+
+- Data collected: none
+- Network requests: none (no servers, no remote code)
+- Stored locally (chrome.storage.local): settings, schedule, and the PIN salt and hash
+- Permissions: `storage`; host access to https://web.whatsapp.com/* only
+- Not requested: tabs, history, cookies, downloads, clipboard, identity, all-sites access
+- Privacy policy: https://YOUR-USERNAME.github.io/privacy.html
+- Complies with the Chrome Web Store User Data Policy, including Limited Use
+
+## Compatibility
+
+- Google Chrome 102 or newer; Microsoft Edge and Brave via the Chrome Web Store
+- Works on WhatsApp Web (web.whatsapp.com) only
+- Does not work on the WhatsApp Desktop app, WhatsApp for Mac/Windows, or the phone apps
+- Manifest V3 extension, under 300 KB
+
+## Frequently asked questions
+
+Q: How do I blur WhatsApp Web?
+A: Install ChatVeil from the Chrome Web Store and open web.whatsapp.com. Messages, previews, photos and profile pictures are blurred automatically. Hover to read. Click the ChatVeil icon to choose a mode, or press Alt+X to toggle.
+
+Q: How do I hide WhatsApp Web chats while screen sharing?
+A: Select Screen Share mode before the call. It covers all chats, names and photos with a solid block and disables hover-reveal. Hold F2 to peek. A banner confirms the mode is active.
+
+Q: Can I lock WhatsApp Web with a PIN or password?
+A: Yes. In ChatVeil's Lock tab, set a 4–8 digit PIN. WhatsApp Web shows a lock screen on open, after idle time, or on Alt+Shift+L.
+
+Q: Does ChatVeil read my messages?
+A: No. It only applies a visual blur in your browser. It never stores, copies or sends messages and makes no network requests.
+
+Q: Is it free?
+A: Yes, completely free, with no ads and no sign-up.
+
+Q: Is ChatVeil official WhatsApp software?
+A: No. It is independent and not affiliated with WhatsApp LLC or Meta.
+
+## How ChatVeil differs from a basic blur extension
+
+- 11 separately controllable content types, not only messages
+- Four one-click modes, including a dedicated screen-share mode with hover locked
+- PIN lock, smart schedule, tab disguise and auto privacy in one extension
+- Click-to-reveal and hold-to-peek, not only hover
+- Only one permission and zero network requests
+
+## Suggested one-line description
+
+ChatVeil is a free, 100% local Chrome extension that blurs and locks WhatsApp Web chats, with hover-to-peek, PIN lock and a screen-share mode.

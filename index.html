@@ -1,0 +1,578 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ChatVeil – Privacy Blur Extension for WhatsApp™ Web (Free, 100% Local)</title>
+<meta name="description" content="ChatVeil is a free Chrome extension that blurs WhatsApp™ Web messages, chats, photos and names. Hover to peek, PIN lock, screen-share mode. 100% local, no tracking.">
+<link rel="canonical" href="https://YOUR-USERNAME.github.io/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#07140F">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="alternate" type="text/plain" title="LLM summary" href="llms.txt">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ChatVeil">
+<meta property="og:title" content="ChatVeil – Privacy Blur for WhatsApp™ Web">
+<meta property="og:description" content="Blur WhatsApp Web chats, messages and photos. Hover to peek, PIN lock, screen-share mode. Free and 100% local.">
+<meta property="og:url" content="https://YOUR-USERNAME.github.io/">
+<meta property="og:image" content="https://YOUR-USERNAME.github.io/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ChatVeil: keep your WhatsApp Web chats private">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ChatVeil – Privacy Blur for WhatsApp™ Web">
+<meta name="twitter:description" content="Blur WhatsApp Web chats, messages and photos. Hover to peek, PIN lock, screen-share mode. Free and 100% local.">
+<meta name="twitter:image" content="https://YOUR-USERNAME.github.io/assets/og-image.png">
+
+<link rel="stylesheet" href="assets/site.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://YOUR-USERNAME.github.io/#org",
+      "name": "ChatVeil",
+      "url": "https://YOUR-USERNAME.github.io/",
+      "logo": "https://YOUR-USERNAME.github.io/assets/logo-512.png",
+      "email": "sohaibsaqibai@gmail.com",
+      "sameAs": [
+        "https://chromewebstore.google.com/detail/eonoagiopcgfgbhfijjfhnohkobojclb",
+        "https://github.com/YOUR-USERNAME/YOUR-USERNAME.github.io"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://YOUR-USERNAME.github.io/#website",
+      "url": "https://YOUR-USERNAME.github.io/",
+      "name": "ChatVeil",
+      "publisher": { "@id": "https://YOUR-USERNAME.github.io/#org" },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://YOUR-USERNAME.github.io/#app",
+      "name": "ChatVeil – Privacy Blur for WhatsApp™ Web",
+      "alternateName": ["ChatVeil", "WhatsApp Privacy Blur"],
+      "description": "Free Chrome extension that blurs WhatsApp Web messages, chat previews, photos, profile pictures and names so people near your screen can't read them. Includes hover-to-peek, PIN lock, screen-share mode, auto privacy, smart schedule and tab disguise. Runs 100% locally with no data collection.",
+      "applicationCategory": "BrowserApplication",
+      "applicationSubCategory": "Privacy",
+      "operatingSystem": "Google Chrome 102+, Microsoft Edge, Brave (Chromium browsers)",
+      "softwareVersion": "2.0.0",
+      "dateModified": "2026-09-27",
+      "url": "https://YOUR-USERNAME.github.io/",
+      "installUrl": "https://chromewebstore.google.com/detail/eonoagiopcgfgbhfijjfhnohkobojclb",
+      "downloadUrl": "https://chromewebstore.google.com/detail/eonoagiopcgfgbhfijjfhnohkobojclb",
+      "image": "https://YOUR-USERNAME.github.io/assets/logo-512.png",
+      "screenshot": [
+        "https://YOUR-USERNAME.github.io/assets/screenshots/screenshot-1.webp",
+        "https://YOUR-USERNAME.github.io/assets/screenshots/screenshot-3.webp",
+        "https://YOUR-USERNAME.github.io/assets/screenshots/screenshot-4.webp"
+      ],
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "isAccessibleForFree": true,
+      "featureList": [
+        "Blur WhatsApp Web messages, chat previews, photos, videos and stickers",
+        "Blur profile pictures, contact names, group info and online status",
+        "Hover, click or hold-a-key to reveal",
+        "One-click modes: Quick, Public, Screen share, Private",
+        "PIN lock screen for WhatsApp Web",
+        "Emergency Hide shortcut (Alt+Shift+X)",
+        "Auto privacy when you step away",
+        "Smart schedule by day and time",
+        "Tab disguise",
+        "100% local, no account, no tracking"
+      ],
+      "permissions": "storage; host access to web.whatsapp.com only",
+      "publisher": { "@id": "https://YOUR-USERNAME.github.io/#org" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://YOUR-USERNAME.github.io/#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "How do I blur WhatsApp Web?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Install ChatVeil from the Chrome Web Store and open web.whatsapp.com. Messages, chat previews, photos and profile pictures are blurred automatically. Hover over anything to read it, click the ChatVeil icon to pick a mode, or press Alt+X to turn protection on or off." } },
+        { "@type": "Question", "name": "How do I hide WhatsApp Web chats while screen sharing?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Choose Screen Share mode in ChatVeil before your Zoom, Teams or Google Meet call. It covers every chat, name and photo with a solid block and turns off hover-reveal so nothing slips out if your mouse passes over a chat. Hold F2 for a quick look; a banner confirms the mode is on." } },
+        { "@type": "Question", "name": "Can I lock WhatsApp Web with a password or PIN?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. In ChatVeil, open the Lock tab and set a 4–8 digit PIN. WhatsApp Web then shows a lock screen when it opens, after you are idle, or when you press Alt+Shift+L. The PIN is stored only as a salted SHA-256 hash on your own computer. It is a privacy screen for people nearby, not a replacement for locking your computer." } },
+        { "@type": "Question", "name": "Does ChatVeil read or collect my WhatsApp messages?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. ChatVeil only adds a visual blur to the WhatsApp Web page inside your browser. It never stores, copies or sends your messages, makes no network requests, and has no analytics. It uses one permission (storage, to remember your settings) and only runs on web.whatsapp.com." } },
+        { "@type": "Question", "name": "Can WhatsApp Web hide automatically when I walk away?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Turn on Auto Privacy and ChatVeil hides everything when the window loses focus, the tab is hidden, or you have been inactive for 10 seconds to 5 minutes, then restores your view when you return. Alt+Shift+X is an instant Emergency Hide." } },
+        { "@type": "Question", "name": "Is ChatVeil free?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. ChatVeil is completely free, with no ads, no sign-up and no premium tier." } },
+        { "@type": "Question", "name": "Which browsers does ChatVeil work in?",
+          "acceptedAnswer": { "@type": "Answer", "text": "ChatVeil works in Google Chrome 102 or newer and in Chromium-based browsers that can install from the Chrome Web Store, such as Microsoft Edge and Brave. It works on WhatsApp Web (web.whatsapp.com), not the WhatsApp desktop or phone apps." } },
+        { "@type": "Question", "name": "Is ChatVeil made by WhatsApp or Meta?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. ChatVeil is an independent tool and is not affiliated with, endorsed by or sponsored by WhatsApp LLC or Meta Platforms, Inc. WhatsApp is a trademark of WhatsApp LLC." } }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+/* ---------- Hero ---------- */
+.hero { position: relative; padding: 72px 0 88px; overflow: hidden; }
+.hero::before { content: ""; position: absolute; inset: -20% -10% auto -10%; height: 900px; background: radial-gradient(50% 50% at 25% 30%, rgba(52,224,161,.20), transparent 70%), radial-gradient(40% 40% at 85% 20%, rgba(11,154,99,.25), transparent 70%); pointer-events: none; }
+.hero::after { content: ""; position: absolute; inset: 0; background-image: radial-gradient(rgba(52,224,161,.08) 1.2px, transparent 1.3px); background-size: 26px 26px; mask-image: linear-gradient(180deg, #000, transparent 75%); -webkit-mask-image: linear-gradient(180deg, #000, transparent 75%); pointer-events: none; }
+.hero .wrap { position: relative; z-index: 1; display: grid; grid-template-columns: 1.02fr 1fr; gap: 56px; align-items: center; }
+.pill { display: inline-flex; align-items: center; gap: 8px; padding: 7px 14px 7px 8px; border-radius: 999px; background: rgba(52,224,161,.1); border: 1px solid rgba(52,224,161,.28); color: #BFF5DD; font-size: 14px; font-weight: 700; }
+.pill b { white-space: nowrap; background: var(--grad); color: var(--on-accent); border-radius: 999px; padding: 2px 9px; font-size: 12px; }
+.hero h1 { font-size: clamp(40px, 5.6vw, 66px); font-weight: 900; margin-top: 22px; letter-spacing: -0.035em; }
+.hero h1 .veil { position: relative; display: inline-block; color: var(--accent); }
+.hero h1 .veil span { filter: blur(9px); transition: filter .35s ease; }
+.hero h1 .veil:hover span, .hero h1 .veil:focus span { filter: none; }
+.hero .cta { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 34px; }
+.trust { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 28px; color: var(--muted); font-size: 14.5px; font-weight: 600; }
+.trust span { display: inline-flex; align-items: center; gap: 7px; }
+.trust svg { width: 17px; height: 17px; color: var(--accent); }
+
+/* ---------- Interactive demo ---------- */
+.demo { --blur: blur(6px); position: relative; }
+.demo-controls { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 14px; }
+.seg { display: inline-flex; gap: 2px; padding: 4px; border-radius: 13px; background: var(--surface); border: 1px solid var(--line); }
+.seg button { border: 0; background: transparent; color: var(--muted); font: 700 13.5px var(--font); padding: 8px 13px; border-radius: 10px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--grad); color: var(--on-accent); }
+.mini { display: flex; gap: 6px; }
+.mini button { border: 1px solid var(--line); background: var(--surface); color: var(--text); font: 700 13px var(--font); padding: 8px 11px; border-radius: 11px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.mini button:hover, .mini button[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
+.mini svg { width: 15px; height: 15px; }
+.win { position: relative; border-radius: 16px; overflow: hidden; background: #0D1519; border: 1px solid #22313A; box-shadow: 0 40px 90px rgba(0,0,0,.55), 0 0 0 1px rgba(52,224,161,.06); font-size: 13.5px; }
+.win-bar { display: flex; align-items: flex-end; gap: 10px; height: 38px; padding: 0 12px; background: #151D22; }
+.win-bar .dots { display: flex; gap: 6px; align-self: center; }
+.win-bar .dots i { width: 10px; height: 10px; border-radius: 50%; background: #33424B; }
+.win-tab { display: flex; align-items: center; gap: 8px; height: 29px; padding: 0 14px; min-width: 170px; background: #0D1519; border-radius: 9px 9px 0 0; color: #CBD5DA; font-size: 12.5px; }
+.win-tab i { width: 12px; height: 12px; border-radius: 50%; background: #55646C; }
+.demo[data-disguise="1"] .win-tab i { border-radius: 3px; background: #8A90A2; }
+.win-body { display: grid; grid-template-columns: 38% 1fr; height: 360px; }
+.d-side { background: #111A20; border-right: 1px solid #1E2A31; padding: 8px 0; }
+.d-row { display: flex; gap: 10px; align-items: center; padding: 9px 12px; }
+.d-row.on { background: #1A252C; }
+.av { width: 34px; height: 34px; border-radius: 50%; flex-shrink: 0; }
+.d-row .t { min-width: 0; flex: 1; }
+.d-row .n { font-weight: 700; font-size: 13px; color: #E4EAEE; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.d-row .p { color: #8C9AA3; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.d-main { display: flex; flex-direction: column; background: #0C1317; }
+.d-head { display: flex; align-items: center; gap: 10px; padding: 9px 14px; background: #141C21; border-bottom: 1px solid #1E2A31; }
+.d-head .n { font-weight: 700; font-size: 13.5px; }
+.d-head .s { font-size: 11.5px; color: #7F8E97; }
+.d-msgs { flex: 1; display: flex; flex-direction: column; gap: 7px; padding: 14px; }
+.m { max-width: 78%; padding: 7px 10px; border-radius: 9px; background: #1B262D; color: #DCE4E8; align-self: flex-start; font-size: 12.8px; }
+.m.o { align-self: flex-end; background: #1C3A57; }
+.m.img { width: 150px; height: 74px; padding: 0; background: linear-gradient(135deg, #5B8C7B, #2F4F6B 60%, #C98B5B); }
+.d-comp { margin: 0 12px 12px; padding: 9px 12px; border-radius: 9px; background: #1B262D; color: #AEB9BF; font-size: 12.5px; }
+.v { transition: filter .12s ease-out; }
+/* mode rules */
+.demo[data-mode="quick"] .v-msg, .demo[data-mode="quick"] .v-prev, .demo[data-mode="quick"] .v-media,
+.demo[data-mode="public"] .v, .demo[data-mode="screenshare"] .v { filter: var(--blur); cursor: pointer; }
+.demo[data-mode="screenshare"] { --blur: blur(10px) brightness(.18) contrast(.3); }
+.demo:not([data-mode="screenshare"]) .v:hover { filter: none; }
+.demo.peek .v { filter: none !important; }
+.ss-banner { position: absolute; top: 48px; left: 50%; transform: translateX(-50%); padding: 5px 12px; border-radius: 999px; background: var(--grad); color: var(--on-accent); font-size: 11.5px; font-weight: 800; white-space: nowrap; display: none; z-index: 2; }
+.demo[data-mode="screenshare"] .ss-banner { display: block; }
+.lock { position: absolute; inset: 38px 0 0; display: none; place-items: center; background: rgba(6,16,12,.72); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); z-index: 3; }
+.demo.locked .lock { display: grid; }
+.lock form { width: 230px; padding: 20px; border-radius: 16px; background: #10221B; border: 1px solid #24382F; text-align: center; }
+.lock img { width: 40px; height: 40px; margin: 0 auto 8px; }
+.lock h3 { font-size: 16px; }
+.lock p { margin: 4px 0 12px; font-size: 12px; color: var(--muted); }
+.lock input { width: 100%; padding: 9px; border-radius: 10px; border: 1.5px solid #24382F; background: #0A1712; color: var(--text); font: 700 16px var(--font); letter-spacing: .5em; text-align: center; }
+.lock input:focus { outline: none; border-color: var(--accent); }
+.lock button { width: 100%; margin-top: 8px; padding: 9px; border: 0; border-radius: 10px; background: var(--grad); color: var(--on-accent); font: 800 14px var(--font); cursor: pointer; }
+.lock .err { min-height: 16px; margin-top: 6px; font-size: 11.5px; color: #FF8A80; }
+.demo-hint { margin-top: 12px; color: var(--faint); font-size: 13.5px; text-align: center; }
+.demo-hint kbd { font: 700 12px var(--font); padding: 2px 6px; border-radius: 5px; background: var(--surface); border: 1px solid var(--line); color: var(--text); }
+
+/* ---------- Use cases strip ---------- */
+.uses { padding: 0 0 20px; }
+.uses ul { list-style: none; margin: 0; padding: 22px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; border-radius: 20px; background: var(--bg-2); border: 1px solid var(--line); }
+.uses li { display: flex; align-items: center; gap: 12px; font-weight: 700; font-size: 15.5px; }
+.uses svg { width: 38px; height: 38px; padding: 8px; border-radius: 11px; background: rgba(52,224,161,.1); color: var(--accent); flex-shrink: 0; }
+.uses small { display: block; color: var(--muted); font-weight: 500; font-size: 13px; }
+
+/* ---------- Steps ---------- */
+.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 48px; counter-reset: s; }
+.step { position: relative; padding: 28px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); }
+.step::before { counter-increment: s; content: counter(s); display: grid; place-items: center; width: 40px; height: 40px; border-radius: 12px; background: var(--grad); color: var(--on-accent); font-weight: 900; margin-bottom: 18px; }
+.step h3 { font-size: 20px; }
+.step p { margin: 8px 0 0; color: var(--muted); font-size: 15.5px; }
+
+/* ---------- Features ---------- */
+.features { background: linear-gradient(180deg, transparent, var(--bg-2) 20%, var(--bg-2) 80%, transparent); }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 48px; }
+.card { padding: 26px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); transition: border-color .2s, transform .2s; }
+.card:hover { border-color: rgba(52,224,161,.45); transform: translateY(-3px); }
+.card svg { width: 44px; height: 44px; padding: 10px; border-radius: 13px; background: rgba(52,224,161,.1); color: var(--accent); }
+.card h3 { font-size: 19px; margin-top: 16px; }
+.card p { margin: 8px 0 0; color: var(--muted); font-size: 15.5px; }
+.card .new { display: inline-block; margin-left: 6px; padding: 2px 8px; border-radius: 999px; background: var(--grad); color: var(--on-accent); font-size: 11px; font-weight: 800; vertical-align: 3px; letter-spacing: .04em; }
+
+/* ---------- Gallery ---------- */
+.gallery { display: flex; gap: 18px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 8px 20px 22px; margin-top: 40px; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
+.gallery figure { flex: 0 0 min(760px, 86vw); margin: 0; scroll-snap-align: center; }
+.gallery img { width: 100%; height: auto; border-radius: 16px; border: 1px solid var(--line); box-shadow: 0 24px 60px rgba(0,0,0,.45); }
+.gallery figcaption { margin-top: 12px; color: var(--muted); font-size: 14.5px; text-align: center; }
+
+/* ---------- Privacy ---------- */
+.privacy-grid { display: grid; grid-template-columns: 1fr 1.15fr; gap: 48px; align-items: start; }
+.promise { list-style: none; padding: 0; margin: 28px 0 0; display: grid; gap: 12px; }
+.promise li { display: flex; gap: 12px; align-items: flex-start; font-size: 16.5px; }
+.promise svg { width: 24px; height: 24px; color: var(--accent); flex-shrink: 0; margin-top: 2px; }
+table { width: 100%; border-collapse: separate; border-spacing: 0; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; font-size: 15px; }
+th, td { text-align: left; padding: 14px 16px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { background: var(--surface-2); font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+tr:last-child td { border-bottom: 0; }
+td:first-child { font-weight: 700; white-space: nowrap; }
+td { background: var(--surface); color: #D3E4DC; }
+caption { caption-side: bottom; padding-top: 10px; color: var(--faint); font-size: 13px; text-align: left; }
+
+/* ---------- Facts ---------- */
+.facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; margin-top: 44px; background: var(--line); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.facts div { background: var(--surface); padding: 20px 22px; }
+.facts dt { color: var(--faint); font-size: 12.5px; text-transform: uppercase; letter-spacing: .09em; font-weight: 700; }
+.facts dd { margin: 6px 0 0; font-weight: 750; font-size: 16px; }
+
+/* ---------- FAQ ---------- */
+.faq { max-width: 860px; margin: 44px auto 0; display: grid; gap: 12px; }
+.faq details { border-radius: 16px; background: var(--surface); border: 1px solid var(--line); padding: 0 22px; }
+.faq details[open] { border-color: rgba(52,224,161,.4); }
+.faq summary { cursor: pointer; list-style: none; padding: 20px 34px 20px 0; font-weight: 750; font-size: 17.5px; position: relative; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; position: absolute; right: 0; top: 16px; font-size: 26px; font-weight: 400; color: var(--accent); transition: transform .2s; }
+.faq details[open] summary::after { transform: rotate(45deg); }
+.faq details p { margin: 0 0 20px; color: var(--muted); }
+
+/* ---------- Final CTA ---------- */
+.final { padding: 40px 0 100px; }
+.final .box { position: relative; overflow: hidden; padding: 64px 40px; border-radius: 28px; text-align: center; background: radial-gradient(80% 120% at 50% 0%, #1A6A4B 0%, #0F3527 55%, #0B2119 100%); border: 1px solid rgba(52,224,161,.3); }
+.final img { width: 84px; height: 84px; margin: 0 auto 22px; filter: drop-shadow(0 12px 28px rgba(0,0,0,.4)); }
+.final p { color: #BFD6CB; margin: 14px auto 30px; max-width: 520px; }
+
+@media (max-width: 980px) {
+  .hero .wrap, .privacy-grid { grid-template-columns: 1fr; }
+  .grid { grid-template-columns: 1fr 1fr; }
+  .uses ul, .facts { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 640px) {
+  .grid, .steps, .uses ul { grid-template-columns: 1fr; }
+  .facts { grid-template-columns: 1fr 1fr; }
+  .win-body { grid-template-columns: 1fr; height: auto; }
+  .d-side { display: none; }
+  .d-msgs { min-height: 250px; }
+  td:first-child { white-space: normal; }
+  .final .box { padding: 48px 22px; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-chrome" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="3.6" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 8.4h8.6M8.9 13.8 4.6 6.3M15.1 13.8 10.8 21.3" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-eyeoff" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="3" fill="currentColor"/><path d="M4 20 20 4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9.5" rx="2.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-screen" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-cafe" viewBox="0 0 24 24"><path d="M4 8h13v5a6 6 0 0 1-6 6h-1a6 6 0 0 1-6-6zM17 9h1.5a2.5 2.5 0 0 1 0 5H17M8 2v3M12 2v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-office" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 7h2M14 7h2M8 11h2M14 11h2M10 21v-4h4v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6 6 0 0 1 3.5 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-mask" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-hand" viewBox="0 0 24 24"><path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V11m0-5.5a1.5 1.5 0 0 1 3 0V11m0-4a1.5 1.5 0 0 1 3 0v6.5a7 7 0 0 1-7 7h-.5a6 6 0 0 1-4.7-2.3L2.6 14a1.6 1.6 0 0 1 2.4-2l3 2.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="16" cy="6" r="2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="12" r="2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="18" cy="18" r="2" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4.5 6v6c0 4.4 3.2 8 7.5 9 4.3-1 7.5-4.6 7.5-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="m8.5 12 2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-key" viewBox="0 0 24 24"><rect x="2.5" y="6" width="19" height="12" rx="2.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M6.5 10h1M10.5 10h1M14.5 10h1M8 14h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  </defs>
+</svg>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="./" aria-label="ChatVeil home"><img src="assets/icon-128.png" alt="" width="34" height="34">ChatVeil</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#privacy">Privacy</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="https://chromewebstore.google.com/detail/eonoagiopcgfgbhfijjfhnohkobojclb" rel="noopener">Add to Chrome</a>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap">
+      <div>
+        <span class="pill"><b>NEW 2.0</b> PIN lock, smart schedule &amp; tab disguise</span>
+        <h1 id="hero-title">Blur your WhatsApp™&nbsp;Web chats. <span class="veil" tabindex="0"><span>Peek</span></span> only when you want.</h1>
+        <p class="lead">ChatVeil is a free privacy extension for Chrome that blurs WhatsApp Web messages, chats, photos and names, so people near your screen can't read them. Hover to reveal. Everything stays on your computer.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="https://chromewebstore.google.com/detail/eonoagiopcgfgbhfijjfhnohkobojclb" rel="noopener"><svg><use href="#i-chrome"/></svg>Add to Chrome, it's free</a>
+          <a class="btn btn-ghost" href="#features">See all features</a>
+        </div>
+        <div class="trust">
+          <span><svg><use href="#i-check"/></svg>No account</span>
+          <span><svg><use href="#i-check"/></svg>No tracking</span>
+          <span><svg><use href="#i-check"/></svg>1 permission</span>
+          <span><svg><use href="#i-check"/></svg>Works offline</span>
+        </div>
+      </div>
+
+      <!-- Live demo: this is a simulation, not WhatsApp -->
+      <div class="demo" id="demo" data-mode="public" data-disguise="0" aria-label="Interactive ChatVeil demo">
+        <div class="demo-controls">
+          <div class="seg" role="group" aria-label="Privacy mode">
+            <button type="button" data-mode="off" aria-pressed="false">Off</button>
+            <button type="button" data-mode="quick" aria-pressed="false">Quick</button>
+            <button type="button" data-mode="public" aria-pressed="true">Public</button>
+            <button type="button" data-mode="screenshare" aria-pressed="false">Screen share</button>
+          </div>
+          <div class="mini">
+            <button type="button" id="dLock" aria-label="Try the PIN lock"><svg><use href="#i-lock"/></svg>Lock</button>
+            <button type="button" id="dMask" aria-pressed="false" aria-label="Disguise the tab title"><svg><use href="#i-mask"/></svg>Disguise</button>
+          </div>
+        </div>
+        <div class="win">
+          <div class="win-bar"><span class="dots"><i></i><i></i><i></i></span><span class="win-tab"><i></i><span id="dTitle">(4) WhatsApp</span></span></div>
+          <div class="win-body">
+            <div class="d-side">
+              <div class="d-row on"><span class="av v v-av" style="background:#6C8FA3"></span><span class="t"><span class="n v v-name">Sara Ahmed</span><span class="p v v-prev">See you at 6, bring the files</span></span></div>
+              <div class="d-row"><span class="av v v-av" style="background:#A3806C"></span><span class="t"><span class="n v v-name">Family</span><span class="p v v-prev">Mom: dinner at 8?</span></span></div>
+              <div class="d-row"><span class="av v v-av" style="background:#7FA36C"></span><span class="t"><span class="n v v-name">Omar Khalid</span><span class="p v v-prev">Invoice sent, check it</span></span></div>
+              <div class="d-row"><span class="av v v-av" style="background:#8C6CA3"></span><span class="t"><span class="n v v-name">Project Team</span><span class="p v v-prev">Aisha: the deck is final</span></span></div>
+              <div class="d-row"><span class="av v v-av" style="background:#6CA39A"></span><span class="t"><span class="n v v-name">Dr. Lina</span><span class="p v v-prev">Your results are ready</span></span></div>
+            </div>
+            <div class="d-main">
+              <div class="d-head"><span class="av v v-av" style="background:#6C8FA3"></span><span><span class="n v v-name" style="display:block">Sara Ahmed</span><span class="s v v-status">online</span></span></div>
+              <div class="d-msgs">
+                <div class="m v v-msg">Did you review the contract?</div>
+                <div class="m o v v-msg">Yes, two small changes on page 3</div>
+                <div class="m img v v-media" role="img" aria-label="Shared photo"></div>
+                <div class="m o v v-msg">The account PIN is in the email</div>
+                <div class="m v v-msg">See you at 6, bring the files</div>
+              </div>
+              <div class="d-comp v v-comp">I'll send the bank details in a minute…</div>
+            </div>
+          </div>
+          <span class="ss-banner">ChatVeil · Screen Share Mode, chats hidden</span>
+          <div class="lock">
+            <form id="dLockForm">
+              <img src="assets/icon-128.png" alt="">
+              <h3>Chats locked</h3>
+              <p>Demo PIN: <strong>1234</strong></p>
+              <input type="password" inputmode="numeric" maxlength="8" aria-label="PIN" autocomplete="off">
+              <button type="submit">Unlock</button>
+              <div class="err" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+        <p class="demo-hint">Hover any blurred item to peek. Hold <kbd>F2</kbd> to see everything. This is a live simulation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- USE CASES -->
+  <div class="uses">
+    <div class="wrap">
+      <ul>
+        <li><svg><use href="#i-cafe"/></svg><span>Cafés &amp; travel<small>Public mode</small></span></li>
+        <li><svg><use href="#i-office"/></svg><span>Open offices<small>Auto privacy</small></span></li>
+        <li><svg><use href="#i-screen"/></svg><span>Screen sharing<small>Screen share mode</small></span></li>
+        <li><svg><use href="#i-users"/></svg><span>Shared computers<small>PIN lock</small></span></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- HOW -->
+  <section id="how" aria-labelledby="how-title">
+    <div class="wrap center">
+      <span class="eyebrow">How it works</span>
+      <h2 id="how-title">Private in under 30 seconds</h2>
+      <p class="lead">No sign-up, no setup wizard. ChatVeil starts protecting WhatsApp Web the moment it's installed.</p>
+      <div class="steps" style="text-align:left">
+        <div class="step"><h3>Add ChatVeil to Chrome</h3><p>Install it free from the Chrome Web Store. It asks for only one permission: storage, to remember your settings.</p></div>
+        <div class="step"><h3>Open WhatsApp Web</h3><p>Go to web.whatsapp.com. Messages, previews, photos and profile pictures are blurred right away.</p></div>
+        <div class="step"><h3>Pick a mode, or just hover</h3><p>Hover to peek at a message. Choose Quick, Public, Screen share or Private from the toolbar icon, or press Alt+X.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="features" aria-labelledby="feat-title">
+    <div class="wrap">
+      <div class="center">
+        <span class="eyebrow">Features</span>
+        <h2 id="feat-title">Everything you need to keep chats private</h2>
+        <p class="lead">Built for people who use WhatsApp Web in cafés, offices, classrooms and video calls.</p>
+      </div>
+      <div class="grid">
+        <article class="card"><svg><use href="#i-eyeoff"/></svg><h3>Blur everything that matters</h3><p>Messages, chat previews, photos, videos, stickers, profile pictures, contact names, group info, online status, the typing box and search.</p></article>
+        <article class="card"><svg><use href="#i-hand"/></svg><h3>Hover, click or hold to peek</h3><p>Reveal one item by hovering, use click-to-reveal on touchscreens, or hold F2 to see everything for a moment.</p></article>
+        <article class="card"><svg><use href="#i-bolt"/></svg><h3>One-click privacy modes</h3><p>Quick, Public, Screen share and Private presets, plus a custom mix. Choose Blur, Pixelate or Solid, strength 4–20px.</p></article>
+        <article class="card"><svg><use href="#i-lock"/></svg><h3>PIN lock <span class="new">NEW</span></h3><p>Cover WhatsApp Web with a lock screen when it opens, after you're idle, or instantly with Alt+Shift+L.</p></article>
+        <article class="card"><svg><use href="#i-screen"/></svg><h3>Screen-share mode</h3><p>Solid cover with hover turned off, so nothing leaks during Zoom, Teams or Google Meet. A banner confirms it's on.</p></article>
+        <article class="card"><svg><use href="#i-shield"/></svg><h3>Emergency Hide</h3><p>Someone walks up? Press Alt+Shift+X to hide everything instantly. Press again to restore your settings.</p></article>
+        <article class="card"><svg><use href="#i-sliders"/></svg><h3>Auto privacy</h3><p>Hides chats automatically when the window loses focus, the tab is hidden, or you've been away for 10 seconds to 5 minutes.</p></article>
+        <article class="card"><svg><use href="#i-clock"/></svg><h3>Smart schedule <span class="new">NEW</span></h3><p>Turn on Public mode during work hours, for example weekdays 9:00–18:00, and relax automatically after.</p></article>
+        <article class="card"><svg><use href="#i-mask"/></svg><h3>Tab disguise <span class="new">NEW</span></h3><p>Rename the "(3) WhatsApp" tab to "Inbox" and swap its icon, so unread counts don't give you away.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section aria-labelledby="gal-title" style="padding-top:40px">
+    <div class="wrap center">
+      <span class="eyebrow">Screenshots</span>
+      <h2 id="gal-title">See ChatVeil in action</h2>
+    </div>
+    <div class="gallery" tabindex="0" aria-label="Screenshot gallery, scroll sideways">
+      <figure><img src="assets/screenshots/screenshot-1.webp" width="1280" height="800" loading="lazy" alt="WhatsApp Web chats blurred by ChatVeil with one message revealed on hover"><figcaption>Every chat blurred, one message revealed on hover</figcaption></figure>
+      <figure><img src="assets/screenshots/screenshot-2.webp" width="1280" height="800" loading="lazy" alt="ChatVeil popup showing Quick, Public, Screen share and Private modes"><figcaption>One-click privacy modes with a live preview</figcaption></figure>
+      <figure><img src="assets/screenshots/screenshot-3.webp" width="1280" height="800" loading="lazy" alt="ChatVeil PIN lock screen covering WhatsApp Web"><figcaption>PIN lock covers your chats when you step away</figcaption></figure>
+      <figure><img src="assets/screenshots/screenshot-4.webp" width="1280" height="800" loading="lazy" alt="ChatVeil Screen Share Mode hiding all WhatsApp Web content with a solid cover"><figcaption>Screen-share mode for Zoom, Teams and Meet</figcaption></figure>
+      <figure><img src="assets/screenshots/screenshot-5.webp" width="1280" height="800" loading="lazy" alt="ChatVeil auto privacy and smart schedule settings with the browser tab disguised as Inbox"><figcaption>Auto privacy, smart schedule and tab disguise</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- PRIVACY -->
+  <section id="privacy" aria-labelledby="priv-title">
+    <div class="wrap privacy-grid">
+      <div>
+        <span class="eyebrow">Privacy by design</span>
+        <h2 id="priv-title">A privacy tool that doesn't <span class="accent">look</span> at your chats</h2>
+        <p class="lead">ChatVeil only changes how WhatsApp Web looks on your screen. It never reads, stores or sends your messages anywhere.</p>
+        <ul class="promise">
+          <li><svg><use href="#i-check"/></svg>Zero network requests: the extension never talks to a server</li>
+          <li><svg><use href="#i-check"/></svg>No account, no analytics, no ads, no cookies</li>
+          <li><svg><use href="#i-check"/></svg>Your PIN is saved only as a salted SHA-256 hash on your device</li>
+          <li><svg><use href="#i-check"/></svg>Runs only on web.whatsapp.com, nowhere else</li>
+        </ul>
+        <p style="margin-top:26px"><a href="privacy.html">Read the full privacy policy →</a></p>
+      </div>
+      <table>
+        <caption>ChatVeil requests the minimum Chrome permissions possible.</caption>
+        <thead><tr><th scope="col">Permission</th><th scope="col">Why it's needed</th></tr></thead>
+        <tbody>
+          <tr><td>storage</td><td>Remembers your settings (mode, blur style, schedule, PIN hash) on your own computer.</td></tr>
+          <tr><td>web.whatsapp.com</td><td>Lets ChatVeil add the blur effect to WhatsApp Web. It has no access to any other website.</td></tr>
+          <tr><td>Not requested</td><td>History, tabs, cookies, downloads, clipboard, other sites, network access.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- FACTS -->
+  <section aria-labelledby="facts-title" style="padding-top:20px">
+    <div class="wrap">
+      <div class="center">
+        <span class="eyebrow">At a glance</span>
+        <h2 id="facts-title">ChatVeil in numbers</h2>
+      </div>
+      <dl class="facts">
+        <div><dt>Price</dt><dd>Free, no premium tier</dd></div>
+        <div><dt>Version</dt><dd>2.0.0 (Sep 2026)</dd></div>
+        <div><dt>Browsers</dt><dd>Chrome 102+, Edge, Brave</dd></div>
+        <div><dt>Works on</dt><dd>web.whatsapp.com</dd></div>
+        <div><dt>Permissions</dt><dd>1 (storage)</dd></div>
+        <div><dt>Data collected</dt><dd>None</dd></div>
+        <div><dt>Things you can hide</dt><dd>11 types of content</dd></div>
+        <div><dt>Size</dt><dd>Under 300 KB</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <div class="center">
+        <span class="eyebrow">FAQ</span>
+        <h2 id="faq-title">Questions, answered</h2>
+      </div>
+      <div class="faq">
+        <details open><summary>How do I blur WhatsApp Web?</summary><p>Install ChatVeil from the Chrome Web Store and open web.whatsapp.com. Messages, chat previews, photos and profile pictures are blurred automatically. Hover over anything to read it, click the ChatVeil icon to pick a mode, or press Alt+X to turn protection on or off.</p></details>
+        <details><summary>How do I hide WhatsApp Web chats while screen sharing?</summary><p>Choose Screen Share mode in ChatVeil before your Zoom, Teams or Google Meet call. It covers every chat, name and photo with a solid block and turns off hover-reveal, so nothing slips out if your mouse passes over a chat. Hold F2 for a quick look; a banner confirms the mode is on.</p></details>
+        <details><summary>Can I lock WhatsApp Web with a password or PIN?</summary><p>Yes. Open ChatVeil → Lock and set a 4–8 digit PIN. WhatsApp Web then shows a lock screen when it opens, after you're idle, or when you press Alt+Shift+L. The PIN is stored only as a salted SHA-256 hash on your own computer. It's a privacy screen for people nearby, not a replacement for locking your computer.</p></details>
+        <details><summary>Does ChatVeil read or collect my WhatsApp messages?</summary><p>No. ChatVeil only adds a visual blur to the WhatsApp Web page inside your browser. It never stores, copies or sends your messages, makes no network requests, and has no analytics. It uses one permission (storage, to remember your settings) and only runs on web.whatsapp.com.</p></details>
+        <details><summary>Can WhatsApp Web hide automatically when I walk away?</summary><p>Yes. Turn on Auto Privacy and ChatVeil hides everything when the window loses focus, the tab is hidden, or you've been inactive for 10 seconds to 5 minutes, then restores your view when you return. Alt+Shift+X is an instant Emergency Hide.</p></details>
+        <details><summary>Is ChatVeil free?</summary><p>Yes. ChatVeil is completely free, with no ads, no sign-up and no premium tier.</p></details>
+        <details><summary>Which browsers does ChatVeil work in?</summary><p>Google Chrome 102 or newer, plus Chromium-based browsers that install from the Chrome Web Store, such as Microsoft Edge and Brave. It works on WhatsApp Web (web.whatsapp.com), not the WhatsApp desktop or phone apps.</p></details>
+        <details><summary>Is ChatVeil made by WhatsApp or Meta?</summary><p>No. ChatVeil is an independent tool and is not affiliated with, endorsed by or sponsored by WhatsApp LLC or Meta Platforms, Inc. WhatsApp is a trademark of WhatsApp LLC.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <div class="final">
+    <div class="wrap">
+      <div class="box">
+        <img src="assets/logo-512.png" alt="" width="84" height="84">
+        <h2>Your chats, your eyes only.</h2>
+        <p>Add ChatVeil to Chrome in one click. Free forever, 100% local, no account needed.</p>
+        <a class="btn btn-primary" href="https://chromewebstore.google.com/detail/eonoagiopcgfgbhfijjfhnohkobojclb" rel="noopener"><svg><use href="#i-chrome"/></svg>Add to Chrome, it's free</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="cols">
+      <a class="logo" href="./"><img src="assets/icon-128.png" alt="" width="34" height="34">ChatVeil</a>
+      <nav aria-label="Footer">
+        <a href="https://chromewebstore.google.com/detail/eonoagiopcgfgbhfijjfhnohkobojclb" rel="noopener">Chrome Web Store</a>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="https://github.com/YOUR-USERNAME/YOUR-USERNAME.github.io" rel="noopener">GitHub</a>
+        <a href="mailto:sohaibsaqibai@gmail.com">Contact</a>
+      </nav>
+    </div>
+    <p class="disc">© 2026 ChatVeil. ChatVeil is an independent tool and is not affiliated with, endorsed by or sponsored by WhatsApp LLC or Meta Platforms, Inc. WhatsApp is a trademark of WhatsApp LLC, used here only to describe compatibility. This website uses no cookies, analytics or third-party scripts.</p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var demo = document.getElementById("demo");
+  if (!demo) return;
+  var modeBtns = demo.querySelectorAll(".seg button");
+  modeBtns.forEach(function (b) {
+    b.addEventListener("click", function () {
+      demo.dataset.mode = b.dataset.mode;
+      modeBtns.forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
+    });
+  });
+  var mask = document.getElementById("dMask"), title = document.getElementById("dTitle");
+  mask.addEventListener("click", function () {
+    var on = demo.dataset.disguise !== "1";
+    demo.dataset.disguise = on ? "1" : "0";
+    mask.setAttribute("aria-pressed", String(on));
+    title.textContent = on ? "Inbox" : "(4) WhatsApp";
+  });
+  var form = document.getElementById("dLockForm"), input = form.querySelector("input"), err = form.querySelector(".err");
+  document.getElementById("dLock").addEventListener("click", function () {
+    demo.classList.add("locked"); err.textContent = ""; input.value = "";
+    setTimeout(function () { input.focus(); }, 30);
+  });
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    if (input.value === "1234") { demo.classList.remove("locked"); }
+    else { err.textContent = "Wrong PIN. Try 1234."; input.value = ""; }
+  });
+  // Hold F2 to peek (only while the demo is on screen).
+  window.addEventListener("keydown", function (e) { if (e.key === "F2") demo.classList.add("peek"); });
+  window.addEventListener("keyup", function (e) { if (e.key === "F2") demo.classList.remove("peek"); });
+  window.addEventListener("blur", function () { demo.classList.remove("peek"); });
+})();
+</script>
+</body>
+</html>
