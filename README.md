@@ -11,8 +11,9 @@
 
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/eonoagiopcgfgbhfijjfhnohkobojclb"><b>➜ Add to Chrome (free)</b></a> ·
-  <a href="https://YOUR-USERNAME.github.io/">Website</a> ·
-  <a href="https://YOUR-USERNAME.github.io/privacy.html">Privacy policy</a>
+  <a href="https://sohaibsaqibai-dot.github.io/chatveil/">Website</a> ·
+  <a href="https://sohaibsaqibai-dot.github.io/chatveil/privacy.html">Privacy policy</a> ·
+  <a href="https://sohaibsaqibai-dot.github.io/chatveil/support.html">Support</a>
 </p>
 
 ![ChatVeil blurs every WhatsApp Web chat and reveals one message on hover](assets/screenshots/screenshot-1.webp)
@@ -42,7 +43,7 @@ ChatVeil is a free browser extension for Google Chrome, Microsoft Edge and Brave
 - **Local settings only**, stored with `chrome.storage.local`; the PIN is saved as a salted SHA-256 hash.
 - **Permissions:** `storage` + access to `web.whatsapp.com` only.
 
-Read the full [privacy policy](https://YOUR-USERNAME.github.io/privacy.html).
+Read the full [privacy policy](https://sohaibsaqibai-dot.github.io/chatveil/privacy.html).
 
 ## FAQ
 
@@ -62,6 +63,7 @@ This repository hosts the ChatVeil website (GitHub Pages). It contains:
 
 - `index.html`: landing page
 - `privacy.html`: privacy policy
+- `support.html`: help, troubleshooting and contact
 - `llms.txt` and `llms-full.txt`: plain-text summaries for AI assistants
 - `robots.txt` and `sitemap.xml`: crawler instructions and the page list
 - `assets/`: logo, icons, screenshots and the social share image

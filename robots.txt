@@ -60,4 +60,4 @@ Allow: /
 User-agent: MistralAI-User
 Allow: /
 
-Sitemap: https://YOUR-USERNAME.github.io/sitemap.xml
+Sitemap: https://sohaibsaqibai-dot.github.io/chatveil/sitemap.xml

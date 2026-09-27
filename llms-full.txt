@@ -1,8 +1,9 @@
 # ChatVeil – Privacy Blur for WhatsApp™ Web (full reference)
 
 Last updated: 2026-09-27 · Version 2.0.0
-Website: https://YOUR-USERNAME.github.io/
+Website: https://sohaibsaqibai-dot.github.io/chatveil/
 Install (Chrome Web Store): https://chromewebstore.google.com/detail/eonoagiopcgfgbhfijjfhnohkobojclb
+Support: https://sohaibsaqibai-dot.github.io/chatveil/support.html
 Contact: sohaibsaqibai@gmail.com
 
 ## Summary
@@ -73,7 +74,7 @@ You can change these at chrome://extensions/shortcuts
 - Stored locally (chrome.storage.local): settings, schedule, and the PIN salt and hash
 - Permissions: `storage`; host access to https://web.whatsapp.com/* only
 - Not requested: tabs, history, cookies, downloads, clipboard, identity, all-sites access
-- Privacy policy: https://YOUR-USERNAME.github.io/privacy.html
+- Privacy policy: https://sohaibsaqibai-dot.github.io/chatveil/privacy.html
 - Complies with the Chrome Web Store User Data Policy, including Limited Use
 
 ## Compatibility

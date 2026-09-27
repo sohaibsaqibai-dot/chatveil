@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://YOUR-USERNAME.github.io/</loc>
+    <loc>https://sohaibsaqibai-dot.github.io/chatveil/</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <image:image><image:loc>https://YOUR-USERNAME.github.io/assets/logo-512.png</image:loc></image:image>
-    <image:image><image:loc>https://YOUR-USERNAME.github.io/assets/screenshots/screenshot-1.webp</image:loc></image:image>
-    <image:image><image:loc>https://YOUR-USERNAME.github.io/assets/screenshots/screenshot-3.webp</image:loc></image:image>
-    <image:image><image:loc>https://YOUR-USERNAME.github.io/assets/screenshots/screenshot-4.webp</image:loc></image:image>
+    <image:image><image:loc>https://sohaibsaqibai-dot.github.io/chatveil/assets/logo-512.png</image:loc></image:image>
+    <image:image><image:loc>https://sohaibsaqibai-dot.github.io/chatveil/assets/screenshots/screenshot-1.webp</image:loc></image:image>
+    <image:image><image:loc>https://sohaibsaqibai-dot.github.io/chatveil/assets/screenshots/screenshot-3.webp</image:loc></image:image>
+    <image:image><image:loc>https://sohaibsaqibai-dot.github.io/chatveil/assets/screenshots/screenshot-4.webp</image:loc></image:image>
   </url>
   <url>
-    <loc>https://YOUR-USERNAME.github.io/privacy.html</loc>
+    <loc>https://sohaibsaqibai-dot.github.io/chatveil/privacy.html</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://sohaibsaqibai-dot.github.io/chatveil/support.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>
